@@ -1,0 +1,13 @@
+# Ignore everything
+/*
+
+# Except this files and folders
+!.gitignore
+!README.md
+
+!.bashrc
+!.zshrc
+!.xprofile
+!.Xresources
+!wallpapers
+!.config

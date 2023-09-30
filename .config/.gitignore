@@ -1,0 +1,13 @@
+# Ignore everything
+/*
+
+# Except this files and folders
+!.gitignore
+
+!qtile
+!picom
+!alacritty
+!rofi
+!nvim
+!fish
+!neofetch

@@ -1,0 +1,19 @@
+# Env vars
+export _JAVA_AWT_WM_NONREPARENTING=1
+export QT_STYLE_OVERRIDE=kvantum 
+
+# Monitor Refresh Rate
+xrandr --output DP-4 --mode 1920x1080 --rate 144 &
+
+# Wallpaper
+nitrogen --restore &
+# Composer
+picom &
+# Polkit
+lxsession &
+# Network
+nm-applet &
+# Automount Devices
+udiskie -t &
+# Volume icon
+#volumeicon &
