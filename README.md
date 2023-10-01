@@ -2,6 +2,7 @@
 
 ![qtile](./.screenshots/qtile.png)
 ![rofi](./.screenshots/rofi.png)
+![powermenu](./.screenshots/powermenu.png)
 
 - **OS** - ArcoLinux
 - **Window Manager** - qtile
