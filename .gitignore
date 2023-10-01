@@ -4,7 +4,9 @@
 # Except this files and folders
 !.gitignore
 !README.md
+!.screenshots
 
+!.pkgs
 !.bashrc
 !.zshrc
 !.xprofile
