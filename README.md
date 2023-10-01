@@ -74,7 +74,7 @@ Finally, to modify workspaces, edit ```settings/groups.py```. If you want to add
 To change the theme of your system, you first need to install the necessary packages:
 
 ```bash
-sudo pacman -S lxappearance kvantum-qt5 gtk-engine-murrine papirus-icon-theme arc-gtk-theme arc-icon-theme
+sudo pacman -S --needed lxappearance kvantum-qt5 gtk-engine-murrine papirus-icon-theme arc-gtk-theme arc-icon-theme
 ```
 
 To use kvantum in your qt apps you have to edit `~/.xprofile` and add the following line:
