@@ -1,7 +1,7 @@
 # Dotfiles
 
-![qtile](./screenshots/qtile.png)
-![rofi](./screenshots/rofi.png)
+![qtile](./.screenshots/qtile.png)
+![rofi](./.screenshots/rofi.png)
 
 - **OS** - ArcoLinux
 - **Window Manager** - qtile
