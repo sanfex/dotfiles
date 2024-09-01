@@ -1,13 +1,15 @@
 source ~/.config/fish/themes/tokyonight.fish
 
+set PATH $HOME/.local/bin/ $PATH
+
 ### Show full path with prompt_pwd
 set -g fish_prompt_pwd_dir_length 0
 
 ### Custom Prompt
-function fish_prompt
-    printf '%s%s%s%s %s%s%s%s$ ' (set_color brred --bold)"[" (set_color bryellow --bold)$USER (set_color brgreen --bold)@ (set_color brblue --bold)$hostname \
-        (set_color brmagenta --bold) (prompt_pwd) (set_color brred --bold)"]" (set_color normal)
-end
+#function fish_prompt
+#    printf '%s%s%s%s %s%s%s%s$ ' (set_color brred --bold)"[" (set_color bryellow --bold)$USER (set_color brgreen --bold)@ (set_color brblue --bold)$hostname \
+#        (set_color brmagenta --bold) (prompt_pwd) (set_color brred --bold)"]" (set_color normal)
+#end
 
 ### Disable greetings
 set fish_greeting ""
@@ -65,4 +67,12 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 ### Bash autostart commands
-neofetch
+#if test "$TERM" = "xterm-kitty"
+#    fastfetch
+#else
+#    neofetch
+#end
+pyfiglet -s -f slant "I use Arch, btw" | lolcat
+
+### Starship prompt
+starship init fish | source
